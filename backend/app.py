@@ -8,10 +8,7 @@ CORS(app)
 client = MongoClient("mongodb://localhost:27017/")
 db = client["todo_app"]
 
-# ----------------------
-# USER ENDPOINTS
-# ----------------------
-
+//user endpoints
 @app.post("/register")
 def register():
     data = request.json
@@ -36,10 +33,7 @@ def login():
     return jsonify({"message": "Login successful"}), 200
 
 
-# ----------------------
-# TASK ENDPOINTS
-# ----------------------
-
+//task endpoints
 @app.get("/tasks")
 def get_tasks():
     username = request.args.get("username")
