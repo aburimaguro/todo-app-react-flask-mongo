@@ -96,15 +96,15 @@ Replace the following image paths with your own screenshots.
 
 ### Login Screen
 
-![Login Screenshot](screenshots/login.png)
+![Login Screenshot](screenshots/frontend/login.png)
 
 ### Register Screen
 
-![Register Screenshot](screenshots/register.png)
+![Register Screenshot](screenshots/frontend/register.png)
 
 ### Task Dashboard
 
-![Task Dashboard Screenshot](screenshots/dashboard.png)
+![Task Dashboard Screenshot](screenshots/frontend/to_do_list.png)
 
 
 ## Useful Commands
