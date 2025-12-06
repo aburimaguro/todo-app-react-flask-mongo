@@ -92,7 +92,6 @@ Frontend will run at:
 
 ## Screenshots
 
-Replace the following image paths with your own screenshots.
 
 ### Login Screen
 
@@ -105,6 +104,10 @@ Replace the following image paths with your own screenshots.
 ### Task Dashboard
 
 ![Task Dashboard Screenshot](screenshots/frontend/to_do_list.png)
+
+### Database Records 
+
+![Database_Screenshot](screenshots/db/records.png)
 
 
 ## Useful Commands
@@ -161,22 +164,10 @@ npm install
 
 ## License
 
-MIT License:
-[https://opensource.org/licenses/MIT](https://opensource.org/licenses/MIT)
-
-Include a LICENSE file in the project root with the full MIT license text.
 
 
 ## Additional Notes
 
-### CORS Requirements
-
-Because the frontend and backend run on different ports during development, flask-cors is required to enable communication.
-
-```python
-from flask_cors import CORS
-CORS(app)
-```
 
 ### MongoDB Collections
 
@@ -199,15 +190,3 @@ Tasks collection:
   "created_at": "UTC timestamp"
 }
 ```
-
-### Business Logic
-
-The backend restricts deletion of tasks based on:
-
-```python
-if task["completed"] and task["created_at"] < one_week_ago:
-```
-
-### Styling
-
-The UI uses lightweight custom CSS for layout, gradients, and glass-effect surfaces without depending on external CSS or UI frameworks.
