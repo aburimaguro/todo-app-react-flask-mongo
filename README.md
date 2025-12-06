@@ -57,16 +57,6 @@ Note: Authentication uses basic credential checking only. No hashing or JWT is i
 * MongoDB Compass (optional)
 
 
-## Setup and Run Guide (Windows)
-
-### 1. Clone the Repository
-
-```powershell
-git clone <your-repo-url>
-cd todo-app
-```
-
-
 # Backend Setup (Flask)
 
 ```powershell
